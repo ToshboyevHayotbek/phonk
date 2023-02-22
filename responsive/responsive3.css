@@ -1,0 +1,45 @@
+@media only screen and (max-width: 768px){
+    .header__item{
+        width: 100%;
+        background-color: #393E42;
+        height: 100%;
+    }
+    .logo__item{
+        display: none;
+    }
+    .logo img{
+        margin-left: 40%;
+        padding-top: 25%;
+    }
+    .services{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        padding-top: 8rem;
+        margin-bottom: -10rem;
+    }
+    .services__item1{
+        margin-left: 22%;
+        margin-bottom: 3rem;
+    }
+    .services__item1 h3{
+        margin-left: -25%;
+    }
+    .services__item1 p{
+        width: 30rem;
+        margin-left: -22%;
+    }
+    .footer__item{
+        height: 130px;
+    }
+    .footer{
+        padding-top: 10rem;
+    }
+    .social__media{
+        padding-top: 10%;
+        margin-left: 8%;
+    }
+    .footer__item h4{
+        margin-left: 8%;
+    }
+}
